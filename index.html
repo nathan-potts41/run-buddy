@@ -39,76 +39,117 @@
         <div class="hero-form">
             <h3>Get Started Today</h3>
             <p>Fill out this form and one of our trainers will schedule a consult</p>
-        <!-- Add form element -->
-        <form>
-            <label for="name">Enter full name:</label>
-            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
-            <label for="email">Enter email address:</label>
-            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
-            <label for="phone">Enter a telephone number:</label>
-            <input type="tel" placeholder="Phone Number:" name="phone" id="phone" class="form-input" />
-            <p>
-                Have you worked out with a trainer before?
-                <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                <label for="trainer-yes">Yes</label>
-                <input type="radio" name="trainer-confirm" id="trainer-no" />
-                <label for="trainer-no">No</label>
-            </p>
-            <p>
-                <label for="checkbox" >
-                    I acknowledge that I am at least 18 years of age.    
-                </label> 
-                <input type="checkbox" name="age-confirm" id="checkbox" />
-            </p>
-            <button type="submit">
-                Get running!
-            </button>
-        </form>
+            <!-- Add form element -->
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number:" name="phone" id="phone" class="form-input" />
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <button type="submit">
+                    Get running!
+                </button>
+            </form>
         </div>
     </section>
     <!-- End Hero -->
 
     <!-- "what we do" section-->
-    <section id="what-we-do">
-        <h2>What We Do</h2>
+    <section id="what-we-do" class="intro">
+        <h2 class="section-title primary-border">What We Do</h2>
         <p>
-            butcher selfies chamray shabby chic gentrify readymmade yr Echo park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache picked twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+            butcher selfies chamray shabby chic gentrify readymmade yr Echo park XOXO Tumblr normcore Banksy direct
+            trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie
+            Odd Future Austin fingerstache picked twee synth Wes Anderson Thundercats viral bitters flannel meggings
+            narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
         </p>
     </section>
 
     <!-- "what you do" section-->
-    <section id="what-you-do">
-        <h2>What You Do</h2>
+    <section id="what-you-do" class="steps">
+        <h2 class="section-title secondary-border">What You Do</h2>
 
         <div>
             <!-- insert this img elemnt -->
             <img src="./assets/images/01-04-svgs/step-1.svg" alt="" />
-            <h3>Step 1: Fill Out the Form Above.</h3>
+            <h3>Step 1: <span>Fill Out the Form Above</span></h3>
             <p>You're already here, so why not?</p>
         </div>
-        
+
         <div>
             <img src="./assets/images/01-04-svgs/step-2.svg" alt="" />
-            <h3>Step 2: Consult With One Of Our Trainers.</h3>
+            <h3>Step 2: <span>With One Of Our Trainers.</span></h3>
             <p>ARe you here to build muscle, lose weight, or just feel good?</p>
         </div>
 
         <div>
             <img src="./assets/images/01-04-svgs/step-3.svg" alt="" />
-            <h3>Step 3: Get Running.</h3>
+            <h3>Step 3: <span>Get Running.</span></h3>
             <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
         </div>
 
         <div>
             <img src="./assets/images/01-04-svgs/step-4.svg" alt="" />
-            <h3>Step 4: See Results</h3>
+            <h3>Step 4: <span>See Results</span></h3>
             <p>Bi-weekly checkins with your trainer will keep you focused.</p>
         </div>
     </section>
 
     <!-- "meet the trainers" section-->
-    <section>
-        <h2>Meet The Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">
+            Meet The Trainers
+        </h2>
+        <article class="trainer">
+            <img src="assets/images/01-05-trainers/trainer-1.jpg" alt="Aaron Stephens ready to pump you up" />
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolorum est, odit enim error
+                    reprehenderit! Architecto, vero! Iusto consequuntur asperiores perferendis laudantium suscipit
+                    aspernatur. Voluptates veniam vitae non ex placeat?
+                </p>
+            </div>
+        </article>
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat quas odio hic minus
+                    doloremque atque animi, sed alias non cumque asperiores optio autem officiis, iste, dolorum amet.
+                    Quibusdam, obcaecati.
+                </p>
+            </div>
+            <img src="./assets/images/01-05-trainers/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+        </article>
+        <article class="trainer">
+            <img src="./assets/images/01-05-trainers/trainer-3.jpg"
+                alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+            <div class="trainer-bio text-left">
+                <h3>Harry "the Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem optio fugiat nisi consequuntur ex enim
+                    esse ullam quod ab deleniti eum ipsum architecto velit sint saepe, distinctio nemo. Nam, odio.
+                </p>
+            </div>
+        </article>
     </section>
 
     <!-- "reach out" section -->
