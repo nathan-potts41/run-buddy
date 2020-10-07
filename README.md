@@ -12,3 +12,5 @@ https://lernatino.github.io/run-buddy/
 
 ## Contribution
 Made with love from Nathan Potts
+
+## copyright2019 Run Buddy, Inc
